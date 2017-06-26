@@ -1,0 +1,27 @@
+.warning{
+	line-height: 1.5;
+	background-color: red;
+	border-radius: 5px;
+	color: white;
+	width: 900px;
+	display: block;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: bold;
+	text-align: center;
+}
+
+.success{
+	line-height: 1.5;
+	background-color: green;
+	border-radius: 5px;
+	color: white;
+	width: 900px;
+	display: block;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: bold;
+	text-align: center;
+}

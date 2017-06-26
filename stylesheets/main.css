@@ -1,0 +1,180 @@
+body{
+	font-family: "LLReplicaProWeb", Arial, sans-serif;
+	color: #AFAFAF;
+	display: block;
+}
+
+select{
+	border: 0;
+}
+
+a{
+	text-decoration: none;
+	color: #AFAFAF;
+}
+
+h1{
+	font-size: 2em;
+	margin-left: 10%;
+	margin-top: 20%;
+	position: absolute;
+}
+
+h2{
+	font-size: 2em;
+	padding: 15px;
+}
+
+h3{
+	font-size: 1.8em;
+	padding: 10px;
+}
+
+.ucoin{
+	height: 30px;
+	margin-bottom: -9px;
+}
+
+.fill{
+	clear: both;
+}
+
+#navbar{
+	width: 100%;
+	height: 100px;
+	background-color: black;
+}
+
+#navbar img{
+	max-height: 100%;
+	float: left;
+}
+
+#navbar-login{
+	float: right;
+}
+
+#navbar-login li{
+	display: inline-block;
+	margin: 40px;
+}
+
+#navbar-login li:hover{
+	cursor: pointer;
+}
+
+#content{
+	background-image: url('../images/background.jpeg');
+	width: 100%;
+	height: 850px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#login{
+	display: none;
+	width: 900px;
+	position: absolute;
+	background-color: rgba(250, 250, 250, 0.8);
+	margin-left: 500px;
+	margin-top: 200px;
+	border-radius: 5px;
+	color: black;
+	text-align: center;
+}
+
+#login input{
+	width: 700px;
+	display: block;
+	margin: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 1.8;
+	border-radius: 2px;
+	border: 0;
+}
+
+#subscribe{
+	display: none;
+	width: 900px;
+	position: absolute;
+	background-color: rgba(250, 250, 250, 0.8);
+	margin-left: 500px;
+	margin-top: 200px;
+	border-radius: 5px;
+	color: black;
+	text-align: center;
+}
+
+input{
+	width: 700px;
+	display: block;
+	margin: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 1.8;
+	border-radius: 2px;
+	border: 0;
+}
+
+#subscribe label{
+	margin: 20px;
+	line-height: 1.8;
+	border-radius: 2px;
+	border: 0;
+}
+
+#account{
+	width: 900px;
+	position: absolute;
+	background-color: rgba(250, 250, 250, 0.8);
+	margin-left: 500px;
+	margin-top: 200px;
+	border-radius: 5px;
+	color: black;
+	text-align: center;
+	height: 250px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin: 15px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  vertical-align: middle;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn:hover, .btn:active, .btn.active {
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+
+#editAccount{
+	width: 900px;
+	position: absolute;
+	background-color: rgba(250, 250, 250, 0.8);
+	margin-left: 500px;
+	margin-top: 200px;
+	border-radius: 5px;
+	color: black;
+	text-align: center;
+	display: none;
+}
+
+#account p{
+	font-weight: bold;
+	line-height: 1.5;
+}
+
+#account span{
+	font-weight: normal;
+}

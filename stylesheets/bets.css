@@ -1,0 +1,51 @@
+h4{
+	color: black;
+	font-size: 2.5em;
+	font-weight: bold;
+	line-height: 1.8;
+}
+
+#content{
+	background-image: url(../images/background-bet.jpg);
+	overflow-x: scroll;
+}
+
+.event{
+	text-align: center;
+	max-height: 600px;
+	width: 300px;
+	background-color: rgba(250, 250, 250, 0.7);
+	border-radius: 5px;
+	display: inline-block;
+	margin: 80px;
+}
+
+.event img{
+	width: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.team-name{
+	color: black;
+	font-size: 2em;
+	font-weight: bold;
+	line-height: 1.6;
+}
+
+.event-end{
+	color: black;
+	font-size: 1.8em;
+	font-weight: bold;
+	line-height: 1.6;
+}
+
+.makeABet{
+	display: none;
+}
+
+.makeABet input{
+	background-color: rgba(0, 0, 0, 0.9);
+	width: 90%;
+	color: white;
+}
